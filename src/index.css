@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Jost';
+    font-weight: 400;
+    src: local('Jost'), url(./fonts/Jost.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+.react-datepicker-wrapper {
+    width: fit-content !important;
+}
+
+img {
+    pointer-events: none;
+    user-select: none;
+}
